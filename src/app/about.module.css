@@ -1,0 +1,198 @@
+.product_img {
+    padding: 0.3rem 1rem;
+    background: #0d1a4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    max-height: 100%;
+}
+
+.product {
+
+    border: 1px solid var(--orange);
+
+    padding: 0.3rem;
+    background: black;
+
+}
+
+.men_img {
+    position: relative;
+    z-index: 0;
+}
+
+.high {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px 20px;
+    border: 1px solid #ee853e;
+
+}
+.high1{
+    width: 50px;
+    border-right: 1px solid #ee853e;
+    padding-right: 15px;
+}
+
+
+.IoLocationSharp2 {
+    
+ color: #fff;
+ font-size: 1.2rem;
+ font-weight: 600;
+}
+
+.men_img::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: -58px;
+    background: #ee853e;
+    width: 113%;
+    height: 59%;
+    z-index: -1;
+}
+
+.main_header {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.slider_text {
+    padding-top: 2rem;
+}
+
+.main_header1 {
+    color: #ee853e;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 10px;
+    border-bottom: 4px solid white;
+}
+
+.main_header2 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    /* line-height: 28px; */
+}
+
+
+
+.main_header4 {
+    background-color: #0d1a4d;
+    border: 2px solid #77421f;
+}
+
+.main_header5 {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+
+    margin-top: 15px;
+}
+
+.main_header6 {
+    text-align: center;
+    color: #ee853e;
+    font-size: 28px;
+    font-weight: 600;
+    /* text-align: center; */
+}
+
+.main_header7 {
+    text-align: center;
+    color: #ee853e;
+    font-size: 80px;
+    font-weight: 600;
+
+}
+
+.main_header8 {
+    color: #ee853e;
+    font-size: 42px;
+    font-weight: 600;
+    border-bottom: 4px solid white;
+}
+
+.main_header9 {
+    background: #050d1f;
+    padding: 40px 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main_header10 {
+
+    padding: 2rem 4rem;
+}
+
+.bluebg {
+    background: url(../../public/assets/images/bgBlue.png);
+}
+.header{
+    background: url(../../public/assets/images/NewProject1.png);
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+}
+.middle_img {
+    height: 100%;
+}
+
+@media(max-width :768px) {
+
+    .main_header2 {
+        font-size: 16PX;
+        font-weight: 600;
+    }
+}
+
+@media(max-width:425px) {
+    .main_header1 {
+        font-size: 20PX;
+        font-weight: 600;
+    }
+
+    .main_header2 {
+        font-size: 12PX;
+        font-weight: 600;
+    }
+
+    .main_header8 {
+        font-size: 26PX;
+        font-weight: 600;
+    }
+   
+
+
+}
+@media(max-width:1024px){
+    .high{
+        padding: 10px;
+    }
+.high1{
+    padding-right: 10px;
+}
+    
+.IoLocationSharp2{
+    font-size: 12px;
+
+
+}
+.main_header10{
+    padding: 1rem;
+}
+
+}
+@media(max-width:768px){
+    .men_img::after{
+        width: 126%;
+    }
+}
